@@ -158,35 +158,35 @@ try {
                 }
                 if (command == "menu") {
                   if (!isGroupMsg) return;
-                    return client.sendText(from, 
-                      `┃ HALOO!! User <3
-                      ┗━━━━━━━━━━━━━━━━━━━━━━━
-                      ┏━━━━━━━━━━━━━━━━━━━━━━
-                      ┃╔═❲ GROUP MENU ❳═>
-                      ┃║⛇ ${config.prefix}hidetag
-                      ┃║⛇ ${config.prefix}delete
-                      ┃║⛇ ${config.prefix}tagall
-                      ┃║⛇ ${config.prefix}setdesc
-                      ┃║⛇ ${config.prefix}bc
-                      ┃║⛇ ${config.prefix}setname
-                      ┃║⛇ ${config.prefix}setpp
-                      ┃║⛇ ${config.prefix}listonline
-                      ┃║⛇ ${config.prefix}add
-                      ┃║⛇ ${config.prefix}kick
-                      ┃║⛇ ${config.prefix}antilink
-                      ┃║⛇ ${config.prefix}promote
-                      ┃║⛇ ${config.prefix}demote
-                      ┃║⛇ ${config.prefix}kickall
-                      ┃║⛇ ${config.prefix}kickrandom
-                      ┃║⛇ ${config.prefix}sms
-                      ┃╚══════════════════════
-                      ┏━━━━━━━━━━━━━━━━━━━━━━
-                      ┃╔═❲ JB Menu ❳═>
-                      ┃║⛇ ${config.prefix}rekber
-                      ┃║⛇ ${config.prefix}payment
-                      ┃║⛇ ${config.prefix}admin
-                      ┃╚══════════════════════
-                      ┗━━━━━━━━━━━━━━━━━━━━━━━  `)
+                    return client.sendText(from, `
+┃ HALOO!! User <3
+┗━━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━
+┃╔═❲ GROUP MENU ❳═>
+┃║⛇ ${config.prefix}hidetag
+┃║⛇ ${config.prefix}delete
+┃║⛇ ${config.prefix}tagall
+┃║⛇ ${config.prefix}setdesc
+┃║⛇ ${config.prefix}bc
+┃║⛇ ${config.prefix}setname
+┃║⛇ ${config.prefix}setpp
+┃║⛇ ${config.prefix}listonline
+┃║⛇ ${config.prefix}add
+┃║⛇ ${config.prefix}kick
+┃║⛇ ${config.prefix}antilink
+┃║⛇ ${config.prefix}promote
+┃║⛇ ${config.prefix}demote
+┃║⛇ ${config.prefix}kickall
+┃║⛇ ${config.prefix}kickrandom
+┃║⛇ ${config.prefix}sms
+┃╚══════════════════════
+┏━━━━━━━━━━━━━━━━━━━━━━
+┃╔═❲ JB Menu ❳═>
+┃║⛇ ${config.prefix}rekber
+┃║⛇ ${config.prefix}payment
+┃║⛇ ${config.prefix}admin
+┃╚══════════════════════
+┗━━━━━━━━━━━━━━━━━━━━━━━  `)
               }
             //manage grup command
               if (command == "bc") {
@@ -206,61 +206,61 @@ try {
             }
             if (command == "rekber") {
               if (!isGroupMsg) return;
-                return client.sendText(from, 
-              `┃ HALOO!! User <3
-              ┗━━━━━━━━━━━━━━━━━━━━━━━
-              ┏━━━━━━━━━━━━━━━━━━━━━━
-              ┃╔═❲ FEE REKBER ❳═>
-              ┃║⛇0-20  = 1k
-              ┃║⛇20-35 = 2k
-              ┃║⛇35-45 = 3k
-              ┃║⛇45-50 = 4k
-              ┃║⛇50-60 = 5k
-              ┃║⛇60-70 = 6k
-              ┃║⛇70-80 = 7k
-              ┃║⛇80-90 = 8k
-              ┃╚══════════════════════
+                return client.sendText(from, `
+┃ HALOO!! User <3
+┗━━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━
+┃╔═❲ FEE REKBER ❳═>
+┃║⛇0-20  = 1k
+┃║⛇20-35 = 2k
+┃║⛇35-45 = 3k
+┃║⛇45-50 = 4k
+┃║⛇50-60 = 5k
+┃║⛇60-70 = 6k
+┃║⛇70-80 = 7k
+┃║⛇80-90 = 8k
+┃╚══════════════════════
               `)  
           }
           if (command == "payment") {
             if (!isGroupMsg) return;
-              return client.sendText(from, 
-            `┃ HALOO!! User <3
-            ┗━━━━━━━━━━━━━━━━━━━━━━━
-            ┏━━━━━━━━━━━━━━━━━━━━━━
-            ┃╔═❲ PAYMENT ❳═>
-            ┃║⛇ADMIN KYY:
-            ┃║⛇DANA:088214018974
-            ┃║⛇GOPAY:088214018974
-            ┃║⛇OVO:088214018974
-            ┃║⛇
-            ┃║⛇ADMIN DIPZY:
-            ┃║⛇DANA:085750623319
-            ┃║⛇GOPAY:085750623319
-            ┃║⛇
-            ┃║NOTE TANYAKAN DULU
-            ┃║PAYMENT YG TERSEDIA
-            ┃║DAN ADMIN YG MENANGANI
-            ┃╚══════════════════════
+              return client.sendText(from, `
+┃ HALOO!! User <3
+┗━━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━
+┃╔═❲ PAYMENT ❳═>
+┃║⛇ADMIN KYY:
+┃║⛇DANA:088214018974
+┃║⛇GOPAY:088214018974
+┃║⛇OVO:088214018974
+┃║⛇
+┃║⛇ADMIN DIPZY:
+┃║⛇DANA:085750623319
+┃║⛇GOPAY:085750623319
+┃║⛇
+┃║NOTE TANYAKAN DULU
+┃║PAYMENT YG TERSEDIA
+┃║DAN ADMIN YG MENANGANI
+┃╚══════════════════════
             `)
               }
               if (command == "admin") {
                 if (!isGroupMsg) return;
-                  return client.sendText(from, 
-                `┃ HALOO!! User <3
-                ┗━━━━━━━━━━━━━━━━━━━━━━━
-                ┏━━━━━━━━━━━━━━━━━━━━━━
-                ┃╔═❲ ADMIN ❳═>
-                ┃║⛇ADMIN KYY:
-                ┃║⛇wa.me/+628818086251
-                ┃║⛇
-                ┃║⛇ADMIN DIPZY:
-                ┃║⛇wa.me/+6285750623319
-                ┃║⛇
-                ┃║NOTE TANYAKAN DULU
-                ┃║PAYMENT YG TERSEDIA
-                ┃║DAN ADMIN YG MENANGANI
-                ┃╚══════════════════════
+                  return client.sendText(from, `
+┃ HALOO!! User <3
+┗━━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━━
+┃╔═❲ ADMIN ❳═>
+┃║⛇ADMIN KYY:
+┃║⛇wa.me/+628818086251
+┃║⛇
+┃║⛇ADMIN DIPZY:
+┃║⛇wa.me/+6285750623319
+┃║⛇
+┃║NOTE TANYAKAN DULU
+┃║PAYMENT YG TERSEDIA
+┃║DAN ADMIN YG MENANGANI
+┃╚══════════════════════
                 `)}
   
             if (command == "tagall"){
