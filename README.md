@@ -56,5 +56,6 @@ Edit the required value in `botwaconfig.json`.
 - [WA-Automate](https://github.com/open-wa/wa-automate-nodejs)
 - [YogaSakti](https://github.com/YogaSakti/imageToSticker)
 - [GuckTubeYT](https://github.com/GuckTubeYT/GTPSControllerDiscordBot)
+- [Seven-ai1](https://github.com/Seven-ai1/botjb)
 
 
